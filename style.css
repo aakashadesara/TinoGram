@@ -1,0 +1,129 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	overflow-y: hidden;
+}
+
+#overallDiv {
+	width: 100%;
+	height: 100%;
+	background-color: #EEE;
+	border: 1px solid black;
+}
+
+#titleBar {
+	font-family: Century Gothic;
+	border: rgb(0, 100, 160);
+	padding: 5px;
+	text-align: center;
+	font-size: 2em;
+	height: 10%;
+	width: 100%;
+	color: white;
+	background-color: rgb(0, 100, 160);
+}
+
+#titleBar img {
+	height: 100%;
+}
+
+#content {
+	height: 75%;
+	width: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+#bottomBar {
+	height: 15%;
+	width: 100%;
+	background-color: black;
+}
+
+.bbCapsule,
+.uploadButton {
+	text-align: center;
+	color: white;
+	width:20%;
+	height: 60px;
+	float: left;
+	opacity: 0.7;
+}
+
+.bbCapsule img,
+.uploadButton img {
+	padding: 3%;
+	height: 70%;
+}
+
+.uploadButton:hover,
+.bbCapsule:hover {
+	-webkit-transition: opacity 500ms ease-out;
+    -moz-transition: opacity 500ms ease-out;
+    -o-transition: opacity 500ms ease-out;
+    transition: opacity 500ms ease-out;
+	opacity: 1;
+}
+
+.uploadButton {
+	background-color: rgb(0, 100, 160);
+	height: 100%;
+}
+
+.bbCapsule {
+	background-color: rgb(30,30,30);
+	height: 100%;
+}
+
+.indvImg {
+	width: 90%;
+	height: 
+	background-color: #000;
+	margin: 25px auto;
+}
+
+.indvImg img {
+	width: 100%;
+	height: 100%;
+}
+
+#uploadView {
+	height: 100%;
+	text-align: center;
+}
+
+#uploadView input {
+	background-color: black;
+	width: 90%;
+	font-size: 3em;
+	padding: 5%;
+	border-radius: 20px;
+	color: white;
+	margin-top: 10%;
+}
+
+#uploadButton {
+	font-family: Century Gothic;
+	width: 90%;
+	color: rgb(0, 100, 160);
+	border: 50px solid rgb(0, 100, 160);
+	border-radius: 2%;
+	font-size: 3em;
+	margin-top: 5%;
+	background-color: white;
+	padding: 3%;
+}
+
+
+#uploadButton:hover {
+	-webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+	background-color: rgb(0,100,160);
+	color: white;
+}
+
+#contentView {
+	overflow: scroll;
+}
